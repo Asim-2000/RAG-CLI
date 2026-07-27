@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: rag-cli
+Version: 0.1.0
+Summary: Terminal RAG assistant for answering developer questions from project docs.
+Requires-Python: >=3.9
+Requires-Dist: click>=8.1
+Requires-Dist: rich>=13.7
+Requires-Dist: python-dotenv>=1.0
+Requires-Dist: langchain>=0.3
+Requires-Dist: langchain-core>=0.3
+Requires-Dist: langchain-text-splitters>=0.3
+Requires-Dist: langchain-chroma>=0.2
+Requires-Dist: langchain-openai>=0.2
+Requires-Dist: langchain-ollama>=0.2
+Requires-Dist: chromadb>=0.5
+Requires-Dist: pypdf>=4.2

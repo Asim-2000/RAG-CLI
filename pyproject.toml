@@ -2,7 +2,7 @@
 name = "rag-cli"
 version = "0.1.0"
 description = "Terminal RAG assistant for answering developer questions from project docs."
-requires-python = ">=3.10"
+requires-python = ">=3.9"
 dependencies = [
     "click>=8.1",
     "rich>=13.7",
