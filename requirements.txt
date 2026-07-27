@@ -1,0 +1,11 @@
+click>=8.1
+rich>=13.7
+python-dotenv>=1.0
+langchain>=0.3
+langchain-core>=0.3
+langchain-text-splitters>=0.3
+langchain-chroma>=0.2
+langchain-openai>=0.2
+langchain-ollama>=0.2
+chromadb>=0.5
+pypdf>=4.2
