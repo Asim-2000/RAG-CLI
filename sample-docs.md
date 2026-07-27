@@ -52,6 +52,7 @@ Partial refunds are supported — omit `amount_cents` to refund the full amount.
 Refunds are final and cannot be reversed.
 
 ## Error codes
+
 | Code | Meaning |
 |---|---|
 | `insufficient_funds` | Customer's payment method was declined |
@@ -65,3 +66,4 @@ Refunds are final and cannot be reversed.
   not a decimal dollar amount.
 - The Payments API does not store card numbers — that's handled entirely by
   the Vault service; Payments only ever sees a `customer_id` token.
+- All the information is encrypted
